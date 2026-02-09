@@ -47,7 +47,7 @@ SERIAL = int(datetime.now(timezone.utc).timestamp())
 MY_IP = get_ip()
 
 print("+===============================+")
-print("|       WiiLink DNS Server      |")
+print("|       Miiconnect24 DNS Server      |")
 print("|          Version " + DNSSERVER_VERSION + "          |")
 print("+===============================+\n")
 
@@ -66,8 +66,6 @@ print(":---------------------------:")
 print("\nAll other settings should match what is shown at the above URL.\n")
 
 print("#### Getting Help ####\n")
-print("Need help? Join our Discord server at https://discord.gg/wiilink or use our forums at https://forum.wiilink.ca\n")
-
 print("--- Starting up ---")
 
 TYPE_LOOKUP = {
